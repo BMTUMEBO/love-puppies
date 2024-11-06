@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Courier New';
+} 
+.puppy-page {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #085070;
+    color: #fff;
+    font-weight: 700; 
+    height: 80px;
+    padding-top: 25px;
+}
+.banner-puppy img {
+    width: 100%;
+}
+.banner-puppy {
+    margin-bottom: 40px; 
+}
+.Puppies {
+    text-align: center;
+    width: 90%;
+    padding:0 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.Puppies {
+    margin-bottom: 20px;
+}
+.Puppies img {
+    width: 100%;
+}
+.puppy-missing {
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    border-style: dotted;
+    background-color: red;
+    margin-bottom: 35px;
+    display: none;
+}
+.Puppy-1 {
+    margin-bottom: 30px;
+}
+.Puppy-3 {
+    margin-bottom: 30px;
+}
+.Puppy-3 {
+    margin-top: 30px;
+}
+.Puppy-4 {
+    margin-top: 30px;
+}
+.more-puppies {
+    font-size: 40px; 
+    text-align: center;
+    padding: 30px;
+    color: black;
+    /* font-weight: 700px;  */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-1 {
+    font-size: 40px; 
+    text-align: center;
+    background-color: #085070;
+    padding: 30px;
+    color: #fff;
+    font-weight: 700px; 
+} 
+@media (min-width: 760px) {
+    .Puppies {
+        display: flex;
+        width: 90%;
+    }
+    .puppy-missing{
+        display: block;
+        width: 30%;
+    }
+    .Puppy-1 {
+        width: 30%;
+    }
+    .Puppy-2 {
+        width: 30%;
+    }
+    .Puppy-3 {
+        width: 45%;
+    }
+    .Puppy-4 {
+        width: 45%;
+    }
+
+} 
+@media (min-width: 761px) and (min-width: 960px) {
+    .Puppies {
+        display: flex;
+        width: 90%;
+    }
+    .puppy-missing{
+        display: block;
+        width: 30%;
+    }
+    .Puppy-1 {
+        width: 30%;
+    }
+    .Puppy-2 {
+        width: 30%;
+    }
+    .Puppy-3 {
+        width: 5%;
+    }
+    .Puppy-4 {
+        width: 5%;
+    }
+
+} 
